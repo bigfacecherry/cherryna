@@ -1,0 +1,189 @@
+body {
+  height: 100%;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+  color: #222222;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  width: 1349px;
+  top: 45px;
+}
+body a {
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: "Microsoft YaHei";
+  color: #222222;
+}
+
+.containerTop {
+  height: 100px;
+}
+.webTopTable,
+.webNavTable {
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+  margin: auto;
+  padding: 0;
+}
+.webTopTable {
+  height: 0;
+  font-size: 0;
+}
+.webNavTable {
+  height: 0;
+  position: absolute;
+}
+.corpTitle {
+  width: 400px;
+  z-index: 31;
+  left: 200px;
+  position: absolute;
+  font-size: 32px;
+  z-index: 32;
+  text-align: left;
+  margin-top: 35px;
+}
+.corpTitle .titleWrapper {
+  font-size: 40px;
+  margin-right: 10px;
+  padding: 0;
+  font-weight: 400;
+  display: inline;
+  color: #02b2b5;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+  width: 623px;
+  height: 50px;
+  z-index: 30;
+  overflow: hidden;
+  position: relative;
+  margin: 45px 600px;
+  border-spacing: 0;
+  float: left;
+}
+.nav .itemSep {
+  width: 20px;
+  display: inline;
+  height: 50px;
+  position: relative;
+  float: left;
+}
+.nav a {
+  float: left;
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  margin: 0 10px;
+  width: auto;
+  min-width: 60px;
+}
+.nav .itemSelected a {
+  color: #02b2b5;
+}
+
+.container {
+  margin-top: 20px;
+  height: 2390px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container h2 {
+  background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
+  padding-top: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+.content {
+  width: 1140px;
+  height: 570px;
+  margin: auto;
+}
+.content img {
+  width: 570px;
+  float: left;
+}
+.share {
+  width: 568px;
+  height: 568px;
+  float: left;
+  border: 1px solid #cfe1f7;
+}
+.share h3 {
+  color: #296fc7;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.share p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7fa6c9;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.btn {
+  color: #ea695f;
+  background-color: transparent;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 400;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid #35a1c2;;
+  white-space: nowrap;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 2px;
+  overflow: visible;
+  min-width: 100px;
+  margin-top: 20px;
+  line-height: 1.4;
+  text-align: center;
+  cursor: pointer;
+}
+.btn#btn1,.btn#btn11 {
+  margin-left: 130px;
+}
+.btn#btn2,.btn#btn12 {
+  margin-left: 100px;
+}
+.btn#btn11,.btn#btn12 {
+    margin-top:100px;
+}
+.share h3#f2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.webFooter {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+  background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
+  text-align: center;
+  padding-top: 5px;
+}
+.xuanyan {
+  color: #fff;
+}
